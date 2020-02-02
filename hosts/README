@@ -1,0 +1,2 @@
+This file contains contents of /etc/ansible/hosts file.
+The group testservers at the bottom of the file will contain the IP addresses of the remote machines you want to manage.
