@@ -1,0 +1,56 @@
+We do not need this file. This is to just show what you should expect.
+
+[root@ip-172-31-17-154 playbooks]# ansible-playbook install_nginx_centos_docker_2.yml
+
+PLAY [Install docker] **************************************************************************************
+
+TASK [Install yum utils] ***********************************************************************************
+ok: [34.217.97.124]
+
+TASK [Install device-mapper-persistent-data] ***************************************************************
+ok: [34.217.97.124]
+
+TASK [Install lvm2] ****************************************************************************************
+ok: [34.217.97.124]
+
+TASK [Add Docker repo] *************************************************************************************
+ok: [34.217.97.124]
+
+TASK [Enable Docker Edge repo] *****************************************************************************
+[WARNING]: The value 0 (type int) in a string field was converted to u'0' (type string). If this does not
+look like what you expect, quote the entire value to ensure it does not change.
+
+ok: [34.217.97.124]
+
+TASK [Enable Docker Test repo] *****************************************************************************
+ok: [34.217.97.124]
+
+TASK [Install Docker] **************************************************************************************
+ok: [34.217.97.124]
+
+TASK [Start Docker service] ********************************************************************************
+ok: [34.217.97.124]
+
+TASK [Add user maverick to docker group] *******************************************************************
+ok: [34.217.97.124]
+
+TASK [Execute a command using the shell module] ************************************************************
+changed: [34.217.97.124]
+
+TASK [Execute a command using the shell module] ************************************************************
+changed: [34.217.97.124]
+
+TASK [If follow=yes, /path/to/file will be overwritten by contents of foo.conf] ****************************
+ok: [34.217.97.124]
+
+TASK [Execute a command using the shell module] ************************************************************
+changed: [34.217.97.124]
+
+TASK [Execute a command using the shell module] ************************************************************
+changed: [34.217.97.124]
+
+TASK [Execute a command using the shell module] ************************************************************
+changed: [34.217.97.124]
+
+PLAY RECAP *************************************************************************************************
+34.217.97.124              : ok=15   changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
